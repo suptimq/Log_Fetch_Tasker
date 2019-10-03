@@ -1,0 +1,14 @@
+Log Fetcher Application Scenario
+
+Application running in the production environment is generally maintained by the operation and maintenance personnel.
+Research and Development Engineers are responsible for the code part
+The actual deployment is operated by operation and maintenance.
+It is very common that the code will output the log to the log file.
+The log of the corresponding production environment is output to the production server
+The server can only be accessed by the operation and maintenance personnel.
+If the online business encounters problems, it needs to be checked. You can just check the output log, you will need to check the log file.
+
+However, in fact, as an operation and maintenance, this permission should not be released. It depends on the sensitivity of the log data, and it can only be opened to qualified people.
+However, because of the access control, it is okay.
+The other is that the form of the log file is too old.
+Now it should be on the log system, the application can save the log to the log file, but it should also be stored in the centralized log system. The log system can analyze and filter the log, and then open it to the corresponding personnel.
